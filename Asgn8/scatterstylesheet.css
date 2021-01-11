@@ -1,0 +1,41 @@
+body {
+  font: 13px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+/*Add Tooltip Type here*/
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+
+table {
+    background: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%
+}
+.left-column
+{
+    text-align: left;
+    font-weight: bold;
+}
+.right-column
+{
+    text-align: right;
+    font-weight: bold;
+}
+
+
