@@ -1,0 +1,23 @@
+body{
+    background-color: #E6E6E6;
+}
+
+p{
+    text-indent: 40px;
+}
+
+/*Add .axis path and .axis line commans as described in the book */
+/* In the book the color for the stroke is set to teal so I will keep it
+the same here */
+.axis path,
+.axis line {
+    stroke: teal;
+    shape-rendering: crispEdges;
+}
+
+
+.axis text{
+    font: Times;
+    font-size: 12px;
+    font-weight: bold;
+}
